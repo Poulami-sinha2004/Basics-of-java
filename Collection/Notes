@@ -1,0 +1,116 @@
+for iteration:
+for each--traverse forward
+
+iterator-->forward
+
+list iterator-->traverse,forward,backward
+
+
+Comparable--> class String implements Comparable{
+}
+-compareTO() return int value its return type is int
+return integer 
+positive if greater , negetive if smaller , 0 if equal
+
+example: "2" compareTo("k")
+
+*all wrapper classes has internally implemented comparable interface*
+
+sortedMap specific methods - 
+
+1) firstKey()
+Returns the smallest (first) key in the map.
+
+2) lastKey()
+Returns the largest (last) key in the map.
+
+3) headMap(K toKey)
+Ret	urns entries with keys less than toKey
+
+4) tailMap(K fromKey)
+Returns entries with keys greater than or equal to fromKey.
+
+5) tailMap(K fromKey)
+Returns entries with keys greater than or equal to fromKey.
+
+6) subMap(K fromKey, K toKey)
+Returns entries with keys from fromKey (inclusive) to toKey (exclusive).
+
+
+=============================================================================================================
+
+Navigable Map specific methods
+1) lowerKey(K key)
+Greatest key strictly less than given key
+
+2) floorKey(K key)
+Greatest key less than or equal to given key
+
+3) ceilingEntry(K key)
+Entry with key ≥ given key
+
+4) higherEntry(K key)
+Entry with key just above given key
+
+5) pollFirstEntry()	
+Removes and returns first (lowest) entry
+
+6)pollLastEntry()		
+Removes and returns last (highest) entry
+
+7)descendingMap()	
+Returns map in reverse order
+
+8)navigableKeySet()	
+Returns keys as a NavigableSet
+
+9)descendingKeySet()	
+Returns keys in reverse order
+
+10) headMap(K toKey, boolean inclusive)	
+Keys less than (or equal) to given key
+
+11)tailMap(K fromKey, boolean inclusive)		
+Keys greater than (or equal) to given key
+Arrays utility class 
+1) sort() 
+Sort array
+
+2) binarySearch()
+Search element
+
+3) fill()
+Fill with value
+
+4) copyOf()
+Copy array
+
+5) copyOfRange()
+Copy sub-array
+
+========================================================================================
+Collections class methods
+
+1) sort()	
+Sort list
+
+2) reverse()
+Reverse order
+
+3)shuffle()	
+Randomize
+
+4) binarySearch()
+Search
+
+5) max() / min()
+Max & Min
+
+6) frequency()	
+Count occurrences
+
+7) replaceAll()	
+Replace values
+
+8) copy()
+Copy list

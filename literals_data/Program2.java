@@ -1,0 +1,11 @@
+package literals_data;
+
+public class Program2 {
+public static void main(String[] args) {
+	//Literals characters
+	System.out.println('A');
+	System.out.println('1');
+	System.out.println('@');
+//	System.out.println(100);
+}
+}
